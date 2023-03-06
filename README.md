@@ -1,7 +1,7 @@
-DessertClicker - Starter Code
-==============================
+DessertClickerLogs - Solution Code
+==================================
 
-Starter code for Android Kotlin Fundamentals Codelab 4.1 Lifecycles and logging.
+Solution code for Android Kotlin Fundamentals Codelab 4.1: Lifecycles and logging.
 
 Introduction
 ------------
