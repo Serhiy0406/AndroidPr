@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2020 The Android Open Source Project
+  ~ Copyright 2019, The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,12 +15,7 @@
   ~ limitations under the License.
   -->
 
-<resources>
-    <style name="Widget.Unscramble.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="boxStrokeErrorColor">@color/red_400</item>
-        <item name="errorIconTint">@color/red_400</item>
-        <item name="errorTextColor">@color/red_400</item>
-        <item name="errorIconDrawable">@drawable/ic_error</item>
-        <item name="helperTextTextAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
-    </style>
-</resources>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_sleep_tracker_background"/>
+    <foreground android:drawable="@drawable/ic_launcher_sleep_tracker_foreground"/>
+</adaptive-icon>
