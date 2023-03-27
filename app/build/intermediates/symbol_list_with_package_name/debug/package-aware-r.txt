@@ -1467,7 +1467,9 @@ id progress_circular
 id progress_horizontal
 id quality_five_image
 id quality_four_image
+id quality_image
 id quality_one_image
+id quality_string
 id quality_three_image
 id quality_two_image
 id quality_zero_image
@@ -1505,6 +1507,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id sleep_length
 id sleep_list
 id sleep_quality_fragment
 id sleep_tracker_fragment
@@ -1654,6 +1657,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_sleep_quality
 layout fragment_sleep_tracker
+layout list_item_sleep_night
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
