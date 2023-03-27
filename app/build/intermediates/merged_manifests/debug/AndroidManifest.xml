@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.trackmysleepquality"
+    package="com.example.android.trackmysleepqualityrecyclerview"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -37,7 +37,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.example.android.trackmysleepquality.lifecycle-process"
+            android:authorities="com.example.android.trackmysleepqualityrecyclerview.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

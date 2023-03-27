@@ -1,4 +1,4 @@
-com.example.android.trackmysleepquality
+com.example.android.trackmysleepqualityrecyclerview
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -720,7 +720,6 @@ attr trackTint
 attr trackTintMode
 attr transitionDisable
 attr transitionEasing
-attr transitionFlags
 attr transitionPathRotate
 attr triggerId
 attr triggerReceiver
@@ -1326,13 +1325,11 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
-id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
 id bounce
 id buttonPanel
-id cache_measures
 id cancel_action
 id center
 id center_horizontal
@@ -1359,7 +1356,6 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
-id dependency_ordering
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1401,7 +1397,6 @@ id gone
 id graph
 id graph_wrap
 id group_divider
-id grouping
 id groups
 id home
 id homeAsUp
@@ -1719,11 +1714,13 @@ string character_counter_content_description
 string character_counter_pattern
 string clear
 string cleared_message
+string close
 string end_time
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string five_excellent
 string four_pretty_good
+string header_text
 string hide_bottom_view_on_scroll_behavior
 string hours_length
 string hours_slept
@@ -2372,7 +2369,7 @@ styleable TextInputLayout android_textColorHint android_hint boxBackgroundColor 
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
 styleable Transform android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation
-styleable Transition android_id autoTransition constraintSetEnd constraintSetStart duration layoutDuringTransition motionInterpolator pathMotionArc staggered transitionDisable transitionFlags
+styleable Transition android_id autoTransition constraintSetEnd constraintSetStart duration layoutDuringTransition motionInterpolator pathMotionArc staggered transitionDisable
 styleable Variant constraints region_heightLessThan region_heightMoreThan region_widthLessThan region_widthMoreThan
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode

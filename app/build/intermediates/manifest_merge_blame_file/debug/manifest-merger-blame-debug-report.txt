@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.android.trackmysleepquality"
+3    package="com.example.android.trackmysleepqualityrecyclerview"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->D:\Lessons\AndroidStudioProject\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.2] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\9aa2b8ea9b71bb555b0ecf503d5f1caf\core-1.3.2\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\1f96b7289d702dcf883ac92588e3a7b2\core-1.3.1\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher_sleep_tracker"
 15-->D:\Lessons\AndroidStudioProject\app\src\main\AndroidManifest.xml:7:9-57
@@ -51,24 +51,24 @@
 31-->D:\Lessons\AndroidStudioProject\app\src\main\AndroidManifest.xml:21:13-54
 32
 33        <service
-33-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\dd9bcf731148a5cfdde922fa0b85a3f9\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+33-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\132435df920c558738d44634dd58b452\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 34            android:name="androidx.room.MultiInstanceInvalidationService"
-34-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\dd9bcf731148a5cfdde922fa0b85a3f9\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+34-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\132435df920c558738d44634dd58b452\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 35            android:directBootAware="true"
-35-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\dd9bcf731148a5cfdde922fa0b85a3f9\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+35-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\132435df920c558738d44634dd58b452\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
 36            android:exported="false" />
-36-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\dd9bcf731148a5cfdde922fa0b85a3f9\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+36-->[androidx.room:room-runtime:2.2.5] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\132435df920c558738d44634dd58b452\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 37
 38        <provider
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\27d38f6588bb09b95df2f2a0cdcdb99d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\36d52068416b05bad6e298be3dde6256\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\27d38f6588bb09b95df2f2a0cdcdb99d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-40            android:authorities="com.example.android.trackmysleepquality.lifecycle-process"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\27d38f6588bb09b95df2f2a0cdcdb99d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\36d52068416b05bad6e298be3dde6256\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+40            android:authorities="com.example.android.trackmysleepqualityrecyclerview.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\36d52068416b05bad6e298be3dde6256\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 41            android:exported="false"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\27d38f6588bb09b95df2f2a0cdcdb99d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\36d52068416b05bad6e298be3dde6256\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 42            android:multiprocess="true" />
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\27d38f6588bb09b95df2f2a0cdcdb99d\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\36d52068416b05bad6e298be3dde6256\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 43    </application>
 44
 45</manifest>
