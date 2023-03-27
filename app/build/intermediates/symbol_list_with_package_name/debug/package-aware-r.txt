@@ -1505,6 +1505,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id sleep_list
 id sleep_quality_fragment
 id sleep_tracker_fragment
 id smallLabel
@@ -1553,7 +1554,6 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-id textview
 id time
 id title
 id titleDividerNoCustom
@@ -1675,6 +1675,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout text_item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_launcher_sleep_tracker

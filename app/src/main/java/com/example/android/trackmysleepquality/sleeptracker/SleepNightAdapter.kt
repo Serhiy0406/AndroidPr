@@ -8,13 +8,13 @@ import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.TextItemViewHolder
 import com.example.android.trackmysleepquality.database.SleepNight
 
-var data =  listOf<SleepNight>()
-    set(value) {
-        field = value
-        notifyDataSetChanged()
-    }
 
 class SleepNightAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
+    var data =  listOf<SleepNight>()
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
     override fun getItemCount() = data.size
     override fun onBindViewHolder(holder: TextItemViewHolder, position: Int) {
         val item = data[position]
