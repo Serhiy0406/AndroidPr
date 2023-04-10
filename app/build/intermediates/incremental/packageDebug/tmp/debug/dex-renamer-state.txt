@@ -1,7 +1,4 @@
-#Mon Apr 03 17:45:25 EEST 2023
-base.1=D\:\\Lessons\\AndroidStudioProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-path.1=classes.dex
-base.0=D\:\\Lessons\\AndroidStudioProject\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.1=classes2.dex
+#Mon Apr 10 15:32:30 EEST 2023
+base.0=D\:\\Lessons\\AndroidStudioProject\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
