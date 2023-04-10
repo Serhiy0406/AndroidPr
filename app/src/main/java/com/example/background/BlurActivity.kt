@@ -27,11 +27,7 @@ import com.example.background.databinding.ActivityBlurBinding
 
 class BlurActivity : AppCompatActivity() {
 
-    private val viewModel: BlurViewModel by viewModels {
-        BlurViewModel.BlurViewModelFactory(
-            application
-        )
-    }
+    private val viewModel: BlurViewModel by viewModels { BlurViewModelFactory(application) }
     private lateinit var binding: ActivityBlurBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,8 +36,6 @@ class BlurActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.goButton.setOnClickListener { viewModel.applyBlur(blurLevel) }
-        // Observe work status, added in onCreate()
-        viewModel.outputWorkInfos.observe(this, workInfosObserver())
 
         // Setup view output image file button
         binding.seeFileButton.setOnClickListener {
@@ -52,11 +46,13 @@ class BlurActivity : AppCompatActivity() {
                 }
             }
         }
+
         // Hookup the Cancel button
         binding.cancelButton.setOnClickListener { viewModel.cancelWork() }
+
+        viewModel.outputWorkInfos.observe(this, workInfosObserver())
     }
 
-    // Define the observer function
     private fun workInfosObserver(): Observer<List<WorkInfo>> {
         return Observer { listOfWorkInfo ->
 
