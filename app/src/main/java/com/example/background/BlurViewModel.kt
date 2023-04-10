@@ -41,6 +41,10 @@ class BlurViewModel(application: Application) : ViewModel() {
      * Create the WorkRequest to apply the blur and save the resulting image
      * @param blurLevel The amount to blur the image
      */
+
+    internal fun cancelWork() {
+        workManager.cancelUniqueWork(IMAGE_MANIPULATION_WORK_NAME)
+    }
     internal fun applyBlur(blurLevel: Int) {
         // Add WorkRequest to Cleanup temporary images
         var continuation = workManager
