@@ -1,47 +1,23 @@
-<!--
-    Copyright (C) 2022 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
 <resources>
-    <string name="app_name">Water Me</string>
-    <string name="remind_me">Remind me to water %s in…</string>
-    <string name="five_seconds">5 seconds</string>
-    <string name="one_day">1 day</string>
-    <string name="one_week">1 week</string>
-    <string name="one_month">1 month</string>
-    <string name="water">Water</string>
-    <string name="time_to_water">It\'s time to water your %s.</string>
+    <string name="shr_app_name">Shrine</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_button_next">Next</string>
+    <string name="shr_button_cancel">Cancel</string>
+    <string name="shr_error_password">Password must contain at least 8 characters.</string>
+    <string name="shr_filter_title">Filter</string>
+    <string name="shr_search_title">Search</string>
+    <string name="shr_product_title">Title</string>
+    <string name="shr_product_description">Secondary text</string>
 
-    <string name="lithop">Lithop</string>
-    <string name="carrot">Carrot</string>
-    <string name="peony">Peony</string>
-    <string name="pothos">Pothos</string>
-    <string name="fiddle_leaf_fig">Fiddle Leaf Fig</string>
-    <string name="strawberry">Strawberry</string>
-    <string name="daily">daily</string>
-    <string name="weekly">weekly</string>
-    <string name="monthly">monthly</string>
-    <string name="succulent">Succulent</string>
-    <string name="root">Root</string>
-    <string name="flower">Flower</string>
-    <string name="houseplant">Houseplant</string>
-    <string name="broadleaf_evergreen">Broadleaf evergreen</string>
-    <string name="fruit">Fruit</string>
-    <string name="stone_mimicking_succulent">Stone mimicking succulent</string>
-    <string name="hardy_root_vegetable">Hardy root vegetable</string>
-    <string name="spring_blooming_flower">Spring blooming flower</string>
-    <string name="indoor_vine">Indoor vine</string>
-    <string name="ornamental_fig">Ornamental fig</string>
-    <string name="delicious_multiple_fruit">Delicious multiple fruit</string>
+    <!-- Shrine backdrop menu labels -->
+    <string name="shr_featured_label">Featured</string>
+    <string name="shr_apartment_label">Apartment</string>
+    <string name="shr_accessories_label">Accessories</string>
+    <string name="shr_shoes_label">Shoes</string>
+    <string name="shr_tops_label">Tops</string>
+    <string name="shr_bottoms_label">Bottoms</string>
+    <string name="shr_dresses_label">Dresses</string>
+    <string name="shr_account_label">My Account</string>
+    <string name="shr_logo_content_description">Shrine Logo</string>
 </resources>
